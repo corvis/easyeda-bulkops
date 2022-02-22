@@ -1,10 +1,12 @@
 {
-	"name": "Bulk Ops",
-	"description": "Apply bulk operations on the selected components",
-  "id": "bulkops",  
+  "name": "Bulk Ops",
+  "description": "Apply bulk operations on the selected components",
+  "id": "bulkops",
   "author": "Dmitry Berezovsky",
-	"version": "0.1.0",
-	"scripts": [ "main.js" ],  
+  "version": "0.1.0",
+  "scripts": [
+    "main.js"
+  ],
   "icons": {
     "default": "icon.svg"
   },
@@ -16,7 +18,7 @@
         {
           "title": "Copy Params",
           "command": "bulkops.copyparams.copy"
-        }, 
+        },
         {
           "title": "Paste Params",
           "command": "bulkops.copyparams.paste"
