@@ -17,7 +17,9 @@ Consider the following scenario. You have a big schematic and at some point you 
 1. Add the new part on canvas. It will be a of source of data for update operation. Do not connect with any other componet, just place it someware - we will remove it soon.
 1. Select this new part and click Bulk Ops / Copy Params from the main menu. The informational dialog explaining consiquencies of the operation will appear.
 1. Select parts which needs to be updated.
-    **IMPORTANT**: Do not select parts incompatible in terms of footprint/pads layout!
+
+      **IMPORTANT**: Do not select parts incompatible in terms of footprint/pads layout!
+      
 1. Click Bulk Ops / Paste Params to update properties.
 1. Ensure the result is satisfing and remove the original part we added at step 1.
 
@@ -28,7 +30,9 @@ See the explainer below:
 ## Installation
 
 1. Download the recent release of the extension from [Releases](https://github.com/corvis/easyeda-bulkops/releases/latest) page. The asset is called like `release-X.Y.Z.zip`.
-    **IMPORTANT**: Pick the compiled version from Release page. Do not use just plain sources from this repository as it wont work.
+
+      **IMPORTANT**: Pick the compiled version from Release page. Do not use just plain sources from this repository as it wont work.
+      
 1. Unpack archive 
 1. Open EasyEDA, navigate to Advanced / Extension / Extension Setting
 1. Pick Load Extension from the dialog
